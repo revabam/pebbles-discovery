@@ -58,7 +58,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.revature.DiscoveryServiceApplication</mainClass>
+					<mainClass>com.revature.discoveryservice.DiscoveryServiceApplication</mainClass>
 					<addResources>true</addResources>
 				</configuration>
 				<executions>
