@@ -4,8 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-// @EnableDiscoveryServer
-@EnableEurekaServer // This is a slightly more Spring oriented version of the above annotation- either will work
+@EnableEurekaServer
 @SpringBootApplication
 public class DiscoveryServiceApplication {
 
