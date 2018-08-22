@@ -1,4 +1,4 @@
-package com.revature.discoveryservice;
+package com.revature.discoveryService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @EnableEurekaServer
 @SpringBootApplication
-public class DiscoveryServiceApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DiscoveryServiceApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }
  

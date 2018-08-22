@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.revature</groupId>
-	<artifactId>discovery-service</artifactId>
+	<artifactId>pebbles-discovery</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>discovery-service</name>
+	<name>pebbles-discovery</name>
 
 
 
@@ -38,12 +38,13 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- Dev Tools -->
+	<!-- Dev Tools 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency> -->
+		
 	</dependencies>
 
 	<dependencyManagement>
@@ -59,13 +60,13 @@
 	</dependencyManagement>
 
 	<build>
-		<finalName>discovery-service</finalName>
+		<finalName>pebbles-discovery</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.revature.discoveryservice.DiscoveryServiceApplication</mainClass>
+					<mainClass>com.revature.discoveryService.Application</mainClass>
 					<addResources>true</addResources>
 				</configuration>
 				<executions>
